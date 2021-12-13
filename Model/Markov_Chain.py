@@ -41,23 +41,3 @@ def text_cleaner(text):
     clean_text = re.sub('[!;:,<>.?@#$%^&*_~]', "", clean_text)
     clean_text = clean_text.split()
     return clean_text
-
-def next_word(model,entered_word):
-    word = entered_word[0]
-    prob_words = model[word]
-    words = list(model[word].keys())
-    prob_weights = list(model[word].values())
-    next_word = random.choices(words,weights=prob_weights)
-    return next_word
-
-
-def generate_lyrics(model,initial_word,sentence_length):
-    lyrics_list = []
-    lyrics_list.append(initial_word[0])
-    i = 0
-    while i < sentence_length:
-        word = next_word(model,[lyrics_list[-1]])
-        lyrics_list.append(word[0])
-        i += 1
-    sentence = " ".join(lyrics_list)
-    return sentence
