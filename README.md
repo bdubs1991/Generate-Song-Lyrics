@@ -7,7 +7,4 @@ Coming Changes
 2. This will be hosted statically on a website as a reference
 3. Documentation of the code will be added and some examples run
 
-Sample Lyrics
-
-
 ![image](https://user-images.githubusercontent.com/36580462/145759228-2ffe8c81-b736-431c-a107-4d9a77cf6efe.png)
