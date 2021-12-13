@@ -4,7 +4,5 @@ This project involves creating an ETL that allows all song lyrics to be scraped 
 
 Coming Changes
 1. This project will eventually contain code to deploy the markov chain itself to flask, for a user to use. DONE
-2. Once this is deployed, better documentation of the steps and of the functions themselves will be added.
-3. An example of my code will be run, which will have the end result available on flask & heruko for a user to test. 
- 
-Unlike many similar projects, this markov chain will be trained on all artists songs, so allows the user to choose a list of artists will not be available. This is to better simulate how software engineering is used in a data science context, as opposed to webdev. 
+2. This will be hosted statically on a website as a reference
+3. Documentation of the code will be added and some examples run
